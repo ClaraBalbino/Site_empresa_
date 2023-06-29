@@ -1,0 +1,8 @@
+Descrição do projeto:
+O projeto tem um layout simples para todos os tipos de usuários conseguirem ter o acesso desejado,
+trata-se de uma loja de doces fictícia , usando as tecnologias HTML, CSS e Javascript, onde todos esses
+fatores trabalham em conjunto para apresentar na tela do usuário um site que conta com um menu simples,
+com as seguinte informações: Home, sobre a loja, cardápio e contatos, e com isso o usuário tem acesso aos
+produtos vendididos pelo site, ao contato da empresa, informações sobre a mesma e etc. A experiência durante
+a produção do projeto foi satisfatória, onde pude aprender mais sobre as tecnologias HTML, CSS E JavaScript, 
+conseguindo aprender mais sobre o desenvolvimento de sites, para que o projeto saísse como desejado.
