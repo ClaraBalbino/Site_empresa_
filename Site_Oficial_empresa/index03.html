@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/style2.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+             <a href="index_principal.html">
+                <img class="logo-nav" src="CSS/imgs/Valentin_es__2_-removebg-preview.png" height="85px" alt="logo">
+            </a>
+            <ul class="ul1">
+                <a href ="index00.html"><strong>Home</strong></a>
+                <a href ="index01.html"><strong>Sobre</strong></a>
+                <a href ="index03.html"><strong>Contato</strong></a>
+                <a class="btn" href ="index02.html"><strong>Cardápio</strong></a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Nos contate</h1>
+                    <p>Entre em contato com a nossa equipe</p>
+                </div>
+            </section>
+        </div><!--container-->
+    </header>
+  
+    <section class="contato">
+      <div class="container">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12365.96438253732!2d-39.283605923383824!3d-7.583090034551908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a107ad4b29db13%3A0xf788abd711d017fa!2sPra%C3%A7a%20da%20Igreja%20Matriz!5e0!3m2!1spt-BR!2sbr!4v1686678039307!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contato-info">
+            <div class="left-side">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>44, R. Me. Ana Couto, 2 - Centro, Jardim - CE, 63290-000</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Valentin'es@gmail.com</p>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+00(00)000000000</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+11(11)111111111</p>
+                </div>
+            </div>
+            <div class="right-side">
+            <form action="">
+                <input type="text" placeholder="Nome" required >
+                <input type="text" placeholder="Email" required >
+                <input type="text" placeholder="Assunto" required >
+                <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                <button class="btn">Enviar Mensagem</button>
+
+            </form>
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <p>Desenvolvido por Clara Balbino</p>
+        </div>
+    </footer>
+    <script src='JS/script.js'></script>
+</body>
+</html>

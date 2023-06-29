@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:ital,wght@0,100;0,300;1,500&family=Nanum+Gothic&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body{
+    background-color:#FCFCFAff ;
+}
+
+.center{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.box1{
+    margin-top: 50px;
+
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 160px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+.desc{
+    text-align: center;
+    color:#F7838D;
+    margin: 10px 0;
+}
+.desc h2{
+    font-weight: normal;
+}
+.desc p{
+    color: #5B3121;
+}
+.link{
+    width: 100%;
+    text-align: center;
+}
+
+.link a{
+    color: #5B3121;
+    text-decoration: none;
+  
+}
+.link a:hover{
+    color:#9B5A44ff;
+}
+.link-a:hover{
+ background-color: #F7838D;
+ border:3px solid #F7838D;
+}
+
+.link-a{
+    position: relative;
+    border-radius: 7px;
+    background-color:#F7838D;
+    border:3px solid #F7838D;
+    padding: 10px;
+    margin: 17px;
+    transition: 0.3s;
+}
+.link-a i{
+    position: absolute;
+    left: 25px;
+    line-height: 1.1;
+    font-size: 23px
+}
+.link-b:hover{
+    background-color: #F7838D;
+    border:3px solid #F7838D;
+   }
+.link-b{
+    position: relative;
+    border-radius: 7px;
+    background-color:  #F7838D;
+    border:3px solid #F7838D;
+    padding: 10px;
+    margin: 17px;
+    transition: 0.3s;
+}
+.link-b i{
+    position: absolute;
+    left: 25px;
+    line-height: 1.1;
+    font-size: 23px
+}
+.link2 i{
+    color:#ff6a76;
+    padding: 5px;
+}
+.link2 i:hover{
+ color: #ff5765;
+}
+@media (max-width:319px) {
+    .logo img{
+        width:100px;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+    }
+    .desc h2{
+        font-size:17px ;
+    }
+    .desc p{
+        font-size: 12px;
+    }
+    section h3{
+        font-size: 12px;
+    }
+    .link i{
+        font-size: 15px;
+    }
+}
+/*--pale-dogwood: #D3BDAFff;
+--earth-yellow: #DCA650ff;
+--butterscotch: #E2954Dff;
+--redwood: #9B5A44ff;
+--coffee: #5E3D2Cff;*/

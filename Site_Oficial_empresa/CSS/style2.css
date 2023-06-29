@@ -1,0 +1,718 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:ital,wght@0,100;0,300;1,500&family=Nanum+Gothic&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+    outline: none;
+    font-family: "Inter",sans-serif;
+}
+body{
+    background-color: #f1f6fc31;
+}
+section,footer{
+    padding: 54px 0; 
+}
+h3{
+    font-size: 50px;
+}
+p{
+color: #0000009c;
+}
+header .container{
+    max-width: 1400px;
+    margin:0 auto;
+    padding: 0 5%;
+}
+header{
+background-image: url("imgs/Design\ sem\ nome\ \(12\).png") ;
+background-position: center;
+background-size: cover;
+background-attachment: fixed ;
+
+}
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.ul1{
+    display: flex;
+    align-items: center;
+}
+.ul1 a{
+    color:#5B3121;
+    margin:0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+.ul1 a:not(.btn)::after{
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 0;
+    display: block;
+    transition: 0.3s;
+}
+.ul1 a:hover::after{
+ width: 100%;
+}
+.btn{
+    background-color: #5EDBDD;
+    color: #5B3121;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+} 
+.btn:hover{
+    background-color: #3580db;
+}
+.menu-icon{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.close-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+
+}
+.banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner-text h1{
+    font-size: 96px;
+    color: #5B3121;
+}
+.banner-text p{
+    font-size: 20px;
+    color: #6b3925;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+.empresa .container{
+    display: flex;
+    align-items: center;
+}
+.empresa-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.empresa-img{
+    width: 50%;
+}
+.empresa-text h3{
+    font-size: 56px;
+}
+.empresa-text p{
+    margin: 15px 0 15px 0;
+}
+.empresa .empresa-img img{
+    padding-left: 30px;
+}
+
+.empresa2 .container{
+    display: flex;
+    align-items: center;
+}
+.empresa2 .empresa-img img{
+    padding-left: 30px;
+}
+
+.avaliacao h3{
+    text-align: center;
+}
+.avaliacao p{
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-item,.card-item2,.card-item3{
+    background-color: #ffdee1;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+.cards img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.estrelas{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.avaliacao-user{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.estrelas{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23
+}
+.estrelas i{
+    color: #F7838D;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.card-item:hover{
+    background-color: #F7838D;
+    margin-top: -5px;
+}
+.card-item:hover .nome-user, .card-item:hover .avaliacao-user, .card-item:hover .estrelas i{
+    color: White;
+}
+.card-item2:hover{
+    background-color: #F7838D;
+    margin-top: -5px;
+}
+.card-item2:hover .nome-user, .card-item2:hover .avaliacao-user, .card-item2:hover .estrelas i{
+    color: white;
+}
+.card-item3:hover{
+    background-color: #F7838D;
+    margin-top: -5px;
+}
+.card-item3:hover .nome-user, .card-item3:hover .avaliacao-user, .card-item3:hover .estrelas i{
+    color: white;
+}
+.redes-sociais h3, .redes-sociais p{
+    text-align: center;
+    padding-bottom:10px;
+}
+.redes-sociais .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer{
+    background-color: #F7838D;
+    text-align: center;
+}
+.footer i{
+    color: #5B3121;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin:3px;
+    border-radius: 10px;
+}
+.footer p{
+    margin-top: 10px;
+    color: white;
+}
+
+/* css do site2 -> index01.html*/
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre-text{
+    margin-left:20px;
+    width: 50%;
+    padding-right: 40px;
+}
+.sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+}
+.sobre-img{
+    width: 39%;
+    margin-right: 15px;
+}
+.sobre-img img{
+    border-radius: 10px;
+}
+.serviços h3{
+    text-align: center;
+}
+.serviços .container > p{
+text-align: center;
+}
+.rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.row-card-item{
+    background-color: #fcafb6;
+    width: 300px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.row-card-item:hover{
+background-color: #F7838D;
+}
+.row-card-item p{
+    color: #5B3121;
+}
+.row-card-item:hover p{
+color: white;
+}
+.row-card-item img{
+    padding: 9px;
+    background-color: #F7838D;
+    border-radius: 14px;
+}
+.row-card-item:hover img{
+    background-color:#f85f6b;
+}
+.nome-serviço{
+    margin:5px 0;
+    transition: 0.3s;
+}
+.descriçao-serviço{
+ transition: 0.3s
+}
+.dados{
+    background-color: #d3e6fd;
+}
+.dados .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dados-item{
+    text-align: center;
+    margin: 15px;
+    color:#000000be
+}
+.dados-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.dados-item p{
+    font-size: 18px;
+}
+.dados-item p strong{
+ font-size: 28px;
+}
+/*fim do site2*/
+
+/*Inicio do site3 -> index_02.html*/
+.dishes{
+    padding: 100px 8% 120px;
+}
+.main-text{
+    text-align: center;
+}
+.main-text h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+}
+.main-text h3 span{
+    color: #F7838D;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    text-align: center;
+    gap: 0.90rem;
+    margin-top: 30px;
+}
+.card-content .row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.card-body{
+    text-align: center;
+}
+.card-body h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #5B3121;
+    text-shadow: 0px 1px 1px #5B3121;
+}
+.rating i{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.checked{
+    color: #F7838D;
+}
+.card-body p{
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.price{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.card-body button{
+    width: 130px;
+    height: 30px;
+    font-weight: 550;
+    margin-top: 10px;
+    margin: 10px;
+    background: #F7838D;
+    color: #5B3121;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-body button:hover{
+    height: 50px;
+    font-size: 20px;
+}
+@media (max-width:920px){
+    .card-content{
+        grid-template-columns: 1fr;
+    }
+}
+/*fim do site3*/
+
+
+/*Inicio do site4 -> index_03.html*/
+.contato-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.left-side{
+    width: 42%;
+    padding: 30px;
+    background-color: #F7838D;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+    margin-left: 30px;
+}
+.left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.left-side div i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: #5B3121;
+}
+.left-side p{
+    font-size: 17px;
+    color:#5B3121;
+}
+.right-side{
+    width: 50%;
+    margin-right: 15px;
+}
+.right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+}
+.right-side input:focus, .right-side textarea:focus{
+    border-color:#4f9cf9 ;
+}
+.right-side textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+    resize: none;
+}
+.right-side button{
+    border: none;
+}
+/*fim do site4*/
+
+@media (max-width:830px) {
+    .ul1{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: #f76f7a;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0% at 100% 0);
+        transition: 0.7s;
+      }
+      .ul1.open{
+        clip-path: circle(141.2% at 100% 0);
+      }
+      .ul1 a{
+        margin: 10px 0;
+        font-size: 16px;
+      }
+  .menu-icon{
+    display: block;
+  }
+  .close-icon{
+    display: block;
+    position: absolute;
+    top: 46px;
+    right: 28px;
+  }
+  /*responsive home*/
+  .empresa-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+    text-align: center;
+  }
+  .empresa .container, .empresa2 .container{
+    flex-direction: column;
+  }
+  .empresa-text h3{
+    font-size: 38px;
+  }
+  .empresa-text{
+    width: 100%;
+  }
+  .empresa-img img{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+
+  }
+  .banner-text{
+    padding: 0;
+    margin: 80px;
+  }
+  .banner-text h1{
+    font-size: 80px;
+  }
+  .banner-text p{
+    font-size: 15px;
+  }
+  .card-item,.card-item2,.card-item3{
+  width: 77%;
+  }
+  .avaliacao .p1{
+    font-size: 15px;
+  }
+  .avaliacao h3{
+    font-size: 45px;
+  }
+  /*site2 responsive*/
+  .sobre .container{
+    flex-direction: column-reverse;
+  }
+  .sobre-img, .sobre-text{
+   width: 100%;
+  }
+  .sobre-text{
+    margin-top: 40px
+  }
+  .sobre-text h3{
+    font-size: 40px;
+  }
+  .serviços p{
+    font-size: 15px;
+  }
+  .serviços h3{
+    font-size: 45px;
+  }
+  /*site4 responsivo*/
+  .contato-info{
+    flex-direction: column-reverse;
+  }
+  .right-side, .left-side{
+    width:100%;
+  }
+  .right-side{
+    margin-bottom:30px;
+  }
+  @media (max-width:500px) {
+    .banner-text h1{
+     font-size: 50px;
+    }
+
+  }
+}
+
+@media (min-width:1430px) {
+    /*responsive home*/
+    header .container{
+      max-width: 1900px;
+    }
+    .banner-text{
+      margin: 300px;
+  }
+  .logo-nav{
+      height: 42px;
+  }
+    .ul1 a{
+      font-size: 20px;
+      margin:0 31px;
+    }
+    .empresa-text h3{
+      font-size: 68px;
+    }
+    .empresa-text p{
+      font-size: 28px;
+      padding-bottom:27px;
+    }
+    .btn{
+      font-size: 25px;
+    }
+    .empresa-img img{
+      height: 600px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 90%;
+    }
+    .banner-text h1{
+      font-size: 102px;
+    }
+    .banner-text p{
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .avaliacao .p1{
+      font-size: 28px;
+    }
+    .avaliacao h3{
+      font-size: 70px;
+    }
+    .card-item,.card-item2,.card-item3{
+      width: 450px;
+    }
+    .cards img{
+      height: 90px;
+      width: 90px;
+    }
+    .avaliacao-user{
+      font-size: 20px;
+    }
+    .nome-user{
+      font-size: 25px;
+    }
+    .estrelas{
+      font-size: 15px;
+    }
+    .redes-sociais h3{
+      font-size: 68px;
+    }
+    .redes-sociais p{
+      font-size: 28px;
+      padding-bottom: 17px;
+    }
+    .links a i {
+      font-size:25px;
+    }
+    .footer p{
+      font-size: 19px;
+    }
+    /*site2 responsive*/
+    .sobre-text h3{
+      font-size: 68px;
+    }
+    .sobre-text p{
+      font-size: 28px;
+    }
+    .serviços .p{
+      font-size: 28px;
+    }
+    .serviços .h3{
+      font-size: 68px;
+    }
+    .descriçao-serviço{
+      font-size: 25px;
+    }
+    .nome-serviço{
+      font-size: 30px;
+    }
+    .row-card-item img{
+      height: 64px;
+    }
+    .row-card-item{
+      width: 440px;
+    }
+    .dados-item img{
+      height: 67px;
+    }
+    .dados-item{
+      padding: 20px;
+    }
+    .dados-item p strong{
+      font-size: 35px;
+    }
+    .dados-item p{
+      font-size: 25px;
+    }
+    /*site4 responsivo*/
+    .left-side .fa-solid{
+     font-size: 28px;
+    }
+    .left-side p{
+      font-size: 22px;
+    }
+    .right-side input{
+    height: 50px;
+    font-size: 17px;
+    }
+    .right-side textarea{
+      font-size: 17px;
+    }
+    .right-side .btn{
+      font-size: 20px;
+    }
+   }
+  
